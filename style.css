@@ -169,3 +169,14 @@ button {
     color: #e5e7eb;
     font-size: 14px;
 }
+
+/* Footer */
+/*  */
+/*  */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 50px;
+    color: #e5e7eb;
+}
