@@ -28,6 +28,8 @@ button {
 }
 
 /* HERO */
+/*  */
+/*  */
 .hero {
     display: flex;
     flex-direction: column;
@@ -73,4 +75,45 @@ button {
     width: 700px;
     height: 200px;
     object-fit: cover;
+}
+
+
+/* IMAGE SECTION */
+/*  */
+/*  */
+.img-section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.header-cart {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img-cart {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.img-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-content img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.img-caption {
+    margin: 10px;
 }
