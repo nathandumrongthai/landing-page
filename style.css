@@ -117,3 +117,27 @@ button {
 .img-caption {
     margin: 10px;
 }
+
+/* Quotes */
+/*  */
+/*  */
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding: 50px 200px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    margin: auto;
+}
+
+.speaker {
+    margin-left: auto;
+    font-weight: bold;
+}
